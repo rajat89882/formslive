@@ -1,0 +1,16 @@
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-fade-in {
+  animation: fadeInScale 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.transitionadd {
+  transition: 0.3s all ease-in-out;
+}
